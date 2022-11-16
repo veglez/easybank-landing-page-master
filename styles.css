@@ -98,15 +98,8 @@ a {
 
 /* initializing main section  */
 
-.move-top {
-  position: relative;
-  top: -115px;
-}
-
 .main-container {
-  background-image: url("./statics/bg-intro-mobile.svg");
-  background-repeat: no-repeat;
-  padding-bottom: 88px;
+  padding: 322px 24px 88px;
 }
 
 .main-section {
@@ -119,15 +112,22 @@ a {
 }
 
 .main__picture {
-  width: 327px;
+  background-image: url("./statics/bg-intro-mobile.svg");
+  background-position-y: 40px;
+  background-repeat: no-repeat;
+  background-size: 100% auto;
   height: 402px;
+  padding: 0px 24px;
+  position: absolute;
+  top: -52px;
+  width: 100%;
 }
 
 .main__title {
   font-size: 4rem;
   font-weight: 300;
   color: var(--color-black);
-  margin-top: 41px;
+  /* margin-top: 41px; */
   margin-bottom: 16px;
 }
 
